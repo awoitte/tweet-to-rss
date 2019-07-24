@@ -1,0 +1,10 @@
+[package]
+name = "tweet-to-rss"
+version = "0.1.0"
+authors = ["awoitte <aliciawoitte@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "0.9.17"
+select = "*"
+clap = "*"
