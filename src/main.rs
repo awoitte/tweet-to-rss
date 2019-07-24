@@ -51,7 +51,7 @@ fn main() -> Result<(),Box<std::error::Error>> {
         println!("<title>{}</title>", timestamp.attr("href").unwrap());
 
         println!("<link>{}</link>", timestamp.attr("href").unwrap());
-        println!("<description><![CDATA[\n\n{}<br>{}<br>{}\n\n]]</description>", timestamp.text(), context.text().trim(), text.text());
+        println!("<description><![CDATA[\n\n{}<br>{}<br>{}\n\n]]></description>", timestamp.text(), context.text().trim(), text.text());
         println!("</item>");
         println!("");
     }
